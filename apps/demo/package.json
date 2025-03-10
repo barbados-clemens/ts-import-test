@@ -1,0 +1,11 @@
+{
+  "name": "@ts-import-test/demo",
+  "main": "",
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {
+    "@ts-import-test/lib-one": "workspace:*"
+  }
+}
